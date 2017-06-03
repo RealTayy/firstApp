@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="testMenu">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="379" height="163"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="1c256" class="javax.swing.JButton" binding="num1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="fdae3" class="javax.swing.JButton" binding="num4">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="65970" class="javax.swing.JButton" binding="num2">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="65ef2" class="javax.swing.JButton" binding="let1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="87775" class="javax.swing.JButton" binding="let2">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="facf9" class="javax.swing.JButton" binding="let4">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="41227" class="javax.swing.JButton" binding="num3">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="7603f" class="javax.swing.JButton" binding="let3">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="9dba5" class="javax.swing.JTextField" binding="letterLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <text value="Letter"/>
+        </properties>
+      </component>
+      <component id="b2357" class="javax.swing.JTextArea" binding="leftText">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="0"/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <component id="52c2a" class="javax.swing.JTextArea" binding="middleText">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="0A"/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <component id="be8e6" class="javax.swing.JTextArea" binding="rightText">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="A"/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <component id="23f66" class="javax.swing.JTextField" binding="numberLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="67" height="24"/>
+            <preferred-size width="67" height="24"/>
+            <maximum-size width="67" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <text value="Number"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
