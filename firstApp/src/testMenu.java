@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by Tay on 5/31/2017.
+ * This is a test for updating GitHubFiles
  */
 public class testMenu {
     private JPanel mainPanel;
